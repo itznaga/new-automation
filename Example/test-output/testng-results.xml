@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="106473" started-at="2019-05-25T18:11:45Z" finished-at="2019-05-25T18:13:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="106473" started-at="2019-05-25T18:11:45Z" finished-at="2019-05-25T18:13:31Z">
+      <class name="testCases.TestCase1">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testCases.TestCase1@a67c67e]" name="startReport" is-config="true" duration-ms="580" started-at="2019-05-25T18:11:44Z" finished-at="2019-05-25T18:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testCases.TestCase1@a67c67e]" name="setData" is-config="true" duration-ms="35" started-at="2019-05-25T18:11:45Z" finished-at="2019-05-25T18:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="report()[pri:0, instance:testCases.TestCase1@a67c67e]" name="report" is-config="true" duration-ms="1" started-at="2019-05-25T18:11:45Z" finished-at="2019-05-25T18:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCase1@a67c67e]" name="login" is-config="true" duration-ms="8497" started-at="2019-05-25T18:11:47Z" finished-at="2019-05-25T18:11:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://portaluat2.citidirect.com/portalservices/forms/globallogin.pser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="submitPP(java.lang.String)[pri:0, instance:testCases.TestCase1@a67c67e]" name="submitPP" duration-ms="95245" started-at="2019-05-25T18:11:55Z" data-provider="fetchData" finished-at="2019-05-25T18:13:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naga Example18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitPP -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TestCase1@a67c67e]" name="afterMethod" is-config="true" duration-ms="737" started-at="2019-05-25T18:13:30Z" finished-at="2019-05-25T18:13:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:testCases.TestCase1@a67c67e]" name="stopReport" is-config="true" duration-ms="1138" started-at="2019-05-25T18:13:31Z" finished-at="2019-05-25T18:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- testCases.TestCase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

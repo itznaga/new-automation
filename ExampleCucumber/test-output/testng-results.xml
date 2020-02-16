@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="107684" started-at="2019-05-25T15:52:25Z" finished-at="2019-05-25T15:54:12Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@1ed4004b]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="107684" started-at="2019-05-25T15:52:25Z" finished-at="2019-05-25T15:54:12Z">
+      <class name="runner.Runner">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:runner.Runner@1ed4004b]" name="startReport" is-config="true" duration-ms="624" started-at="2019-05-25T15:52:24Z" finished-at="2019-05-25T15:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:runner.Runner@1ed4004b]" name="setData" is-config="true" duration-ms="27" started-at="2019-05-25T15:52:25Z" finished-at="2019-05-25T15:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Runner@1ed4004b]" name="setUpClass" is-config="true" duration-ms="406" started-at="2019-05-25T15:52:25Z" finished-at="2019-05-25T15:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:runner.Runner@1ed4004b]" name="report" is-config="true" duration-ms="1" started-at="2019-05-25T15:52:25Z" finished-at="2019-05-25T15:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@1ed4004b]" name="runScenario" duration-ms="107056" started-at="2019-05-25T15:52:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-25T15:54:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user able to submit PP"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Pkg"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Runner@1ed4004b]" name="tearDownClass" is-config="true" duration-ms="14" started-at="2019-05-25T15:54:12Z" finished-at="2019-05-25T15:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:runner.Runner@1ed4004b]" name="stopReport" is-config="true" duration-ms="1256" started-at="2019-05-25T15:54:12Z" finished-at="2019-05-25T15:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

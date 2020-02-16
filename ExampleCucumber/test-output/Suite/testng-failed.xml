@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://portaluat2.citidirect.com/portalservices/forms/globallogin.pser"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.TestCase1">
+        <methods>
+          <include name="stopReport"/>
+          <include name="login"/>
+          <include name="startReport"/>
+          <include name="afterMethod"/>
+          <include name="report"/>
+          <include name="setData"/>
+          <include name="submitPP"/>
+        </methods>
+      </class> <!-- testCases.TestCase1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
